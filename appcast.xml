@@ -8,16 +8,16 @@
 <item>
     <title>Version 0.5.0</title>
     <sparkle:version>0.5.0</sparkle:version>
-    <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-    <pubDate>Per, 05 Şub 2026 15:49:39 GMT</pubDate>
+    <sparkle:versionString>0.5.0</sparkle:versionString>
+    <pubDate>Per, 05 Şub 2026 16:05:31 GMT</pubDate>
     <sparkle:releaseNotesLink>https://staslianx.github.io/WATCHER-updates/release-notes.html</sparkle:releaseNotesLink>
     <enclosure
         url="https://staslianx.github.io/WATCHER-updates/WATCHER-0.5.0.dmg"
         sparkle:version="0.5.0"
-        sparkle:shortVersionString="0.5.0"
-        length="10858068"
+        sparkle:versionString="0.5.0"
+        length="10858036"
         type="application/octet-stream"
-        sparkle:edSignature="eO/F7OjNO8bDXzlVNi978AtBw+Gyo6NyFMSJbmT79J7jMj6kJekXhRNCgSM/R/NvQxHREIm2Hrhi3QqKiwPdDQ=="
+        sparkle:edSignature="XwWN0ld32EIRblhYvyIn8NXbxp9nPsHsrpFpTkoxvBGk1bW46st+qwc0WBoQXd4sxFUPPyX+BnFsGkPUu++lCw=="
     />
     <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
 </item>
