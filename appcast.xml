@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>WATCHER Changelog</title>
+    <link>https://github.com/staslianx/WATCHER/releases</link>
+    <description>Most recent updates</description>
+    <language>en</language>
+<item>
+    <title>Version 0.5.0</title>
+    <sparkle:version>0.5.0</sparkle:version>
+    <sparkle:versionString>0.5.0</sparkle:versionString>
+    <pubDate>Per, 05 Şub 2026 15:39:24 GMT</pubDate>
+    <sparkle:releaseNotesLink>https://github.com/staslianx/WATCHER/releases/download/0.5.0/release-notes.html</sparkle:releaseNotesLink>
+    <enclosure
+        url="https://github.com/staslianx/WATCHER/releases/download/0.5.0/WATCHER-0.5.0.dmg"
+        sparkle:version="0.5.0"
+        sparkle:versionString="0.5.0"
+        length="10858085"
+        type="application/octet-stream"
+        sparkle:edSignature="PpqKIz2K81SIT5c0NEg/x3ibixan4mz3EtKBzgVjLJPSMfali6vzZTBjkIGuSCykfmeRNKOguGPPmGyB8dxYAA=="
+    />
+    <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+</item>
+  </channel>
+</rss>
