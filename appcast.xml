@@ -10,9 +10,9 @@
     <sparkle:version>0.5.0</sparkle:version>
     <sparkle:versionString>0.5.0</sparkle:versionString>
     <pubDate>Per, 05 Şub 2026 15:49:39 GMT</pubDate>
-    <sparkle:releaseNotesLink>https://github.com/staslianx/WATCHER/releases/download/0.5.0/release-notes.html</sparkle:releaseNotesLink>
+    <sparkle:releaseNotesLink>https://staslianx.github.io/WATCHER-updates/release-notes.html</sparkle:releaseNotesLink>
     <enclosure
-        url="https://github.com/staslianx/WATCHER/releases/download/0.5.0/WATCHER-0.5.0.dmg"
+        url="https://staslianx.github.io/WATCHER-updates/WATCHER-0.5.0.dmg"
         sparkle:version="0.5.0"
         sparkle:versionString="0.5.0"
         length="10858068"
