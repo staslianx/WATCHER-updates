@@ -38,32 +38,17 @@
   </style>
 </head>
 <body>
-<p>Added weekly aggregation using Apple's fiscal calendar, expanded filtering and export capabilities, and improved UI responsiveness based on feedback.</p>
-<h3>Added</h3>
-<ul>
-<li>Weekly price aggregation using Apple fiscal week structure for trend analysis</li>
-<li>Line of Business (LoB) filters for category-based product filtering</li>
-<li>"Include Night Prices" toggle to control whether night-scraped sessions are included in calculations</li>
-<li>"Consolidate Variants" toggle to merge color variants into single rows (uses most common price when variants differ)</li>
-<li>Menu bar widget showing biggest price changes per product category</li>
-<li>Notifications for database updates and configurable price change thresholds</li>
-<li>"Collapse All" and "Clear Filter" buttons in product pickers</li>
-<li>Keyboard shortcuts: arrow keys for picker navigation, CMD+O to open product URLs</li>
-<li>Retailer IDs, PPN codes, quarter, and week numbers in Excel and CSV exports</li>
-</ul>
+<p>Bug fixes and visualization improvements</p>
 <h3>Changed</h3>
 <ul>
-<li>Changes View now shows individual color variant price changes instead of aggregated changes</li>
-<li>Historical price change exports moved from History View to Changes View</li>
-<li>Simplified time period picker with fewer steps to change date ranges</li>
-<li>iCloud Sync Monitor optimized for faster and more reliable sync on database updates</li>
-<li>Bestseller Products filter now supports custom product selection</li>
-<li>Settings interface reorganized for better navigation</li>
+<li>Average Discount chart now uses an inverted vertical bar design for clearer comparison</li>
 </ul>
 <h3>Fixed</h3>
 <ul>
-<li>Missing base prices for iPhone 15 128GB and 13-inch MacBook Air 16GB 256GB variants</li>
-<li>Market Events calendar showing only one indicator when multiple events exist on the same date</li>
+<li>Partner filters now work correctly when Consolidate Variants or Include Night Prices are enabled in Visualization.</li>
+<li>Price Position Heatmap tooltip now shows the correct weekly price aggregation and date range</li>
+<li>Pagination controls now appear consistently in History view</li>
+<li>Best price badge now only highlights the actual lowest-priced retailer</li>
 </ul>
 </body>
 </html>
