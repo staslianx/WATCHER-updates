@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>WATCHER Changelog</title>
-    <link>https://github.com/staslianx/WATCHER/releases</link>
+    <link>https://staslianx.github.io/WATCHER-updates/</link>
     <description>Most recent updates</description>
     <language>en</language>
 <item>
-    <title>Version 0.5.2</title>
-    <sparkle:version>0.5.2</sparkle:version>
-    <sparkle:versionString>0.5.2</sparkle:versionString>
-    <pubDate>Pzt, 09 Şub 2026 18:56:39 GMT</pubDate>
+    <title>Version 0.5.2.1</title>
+    <sparkle:version>0.5.2.1</sparkle:version>
+    <sparkle:versionString>0.5.2.1</sparkle:versionString>
+    <pubDate>Sal, 10 Şub 2026 11:45:55 GMT</pubDate>
     <sparkle:releaseNotesLink>https://staslianx.github.io/WATCHER-updates/release-notes.html</sparkle:releaseNotesLink>
     <enclosure
-        url="https://staslianx.github.io/WATCHER-updates/WATCHER-0.5.2.dmg"
-        sparkle:version="0.5.2"
-        sparkle:versionString="0.5.2"
-        length="11399685"
+        url="https://staslianx.github.io/WATCHER-updates/WATCHER-0.5.2.1.dmg"
+        sparkle:version="0.5.2.1"
+        sparkle:versionString="0.5.2.1"
+        length="11426976"
         type="application/octet-stream"
-        sparkle:edSignature="6aYLZJ42Czb2CennuSGUmqPq1aR1ybQwzpIVvOQKyH92cZsKbWsSwe3lbI3xFOlw0dHZ1vsB72zNSrNlj5X/BQ=="
+        sparkle:edSignature="v5wJwRbDmV+xRis2UF2kFKM3gmfQvVsyS7OZYG1s/y8cMowqalEIdq/aiynTZWP39W9y/0FvjvJoAsl2VJOADQ=="
     />
     <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
 </item>
