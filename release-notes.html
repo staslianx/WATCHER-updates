@@ -2,19 +2,36 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="color-scheme" content="light dark">
   <style>
+    :root {
+      --text-primary: #333333;
+      --text-secondary: #555555;
+      --heading: #222222;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-primary: #f2f2f2;
+        --text-secondary: #d0d0d0;
+        --heading: #ffffff;
+      }
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
       font-size: 13px;
       line-height: 1.5;
-      color: #333;
+      color: var(--text-primary);
       margin: 0;
       padding: 8px 12px;
+      background: transparent;
     }
     h3 {
       font-size: 13px;
       font-weight: 600;
       margin: 12px 0 4px 0;
+      color: var(--heading);
     }
     h3:first-child {
       margin-top: 0;
@@ -23,10 +40,11 @@
       font-size: 13px;
       font-weight: 600;
       margin: 10px 0 4px 0;
+      color: var(--heading);
     }
     p {
       margin: 4px 0 8px 0;
-      color: #555;
+      color: var(--text-secondary);
     }
     ul {
       margin: 4px 0 8px 0;
@@ -35,13 +53,27 @@
     li {
       margin: 4px 0;
     }
+    strong {
+      color: var(--text-primary);
+    }
   </style>
 </head>
 <body>
+<h3>Added </h3>
+<ul>
+<li>Market Event overlays in time series visualizations for at-a-glance correlation between events and pricing</li>
+<li>Popover detail view when clicking Market Event overlays to see event information</li>
+<li>"Filter chart to retailer" button in Market Event popover to focus on specific retailers associated with the event</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>PNG export for visualizations now fully functional and ready for presentations</li>
+<li>Average LoB Discount chart now supports batch PNG export for all Lines of Business</li>
+<li>Notification wording streamlined for clarity</li>
+</ul>
 <h3>Fixed</h3>
 <ul>
-<li>Tooltips in Visualization was visible with the latest price even in future dates</li>
-<li>Current day in Week was not showing partial progress of data collection before the next day arrives</li>
+<li>Editing Market Events no longer resets DG configuration, preventing false non-compliance flags</li>
 </ul>
 </body>
 </html>
